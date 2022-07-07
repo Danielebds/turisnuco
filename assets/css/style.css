@@ -4,16 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 95px 1fr;
-    grid-template-areas: 
-        "header"
-        "main"
-    ;
+.cor-card {
+    background-color: rgba(109, 109, 109, 0.5);
 }
 
 body#home{
@@ -23,11 +15,5 @@ body#home{
 }
 
 header {
-    grid-area: header;
     background-color: rgba(109, 109, 109, 0.5);
-}
-
-main {
-    grid-area: main;
-    min-height: calc(100vh - 95px);
 }
