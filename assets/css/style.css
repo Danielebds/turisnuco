@@ -5,7 +5,9 @@
 }
 
 body {
-    background-image: ;
+    background-image: url("../img/fernando-de-noronha.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     width: 100vw;
     min-height: 100vh;
     display: grid;
