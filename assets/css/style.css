@@ -30,9 +30,11 @@ body#turismo{
     background-attachment: fixed;
 }
 
-/* body#turismo{
-    background-color: #FFF;
-} */
+body#contato{
+    background-image: url("../img/ground-zero.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 header {
     background-color: rgba(109, 109, 109, 0.5);

@@ -48,9 +48,36 @@
             </div>
           </nav>
     </header>
-    <main>
+    <main class="d-flex justify-content-center align-items-center">
         <div class="container-md">
+          <div class="col-md-6 mx-auto bg-light py-4 px-3 rounded" style="max-width: 500px;">
+            <p class="fs-1 text-center text-break">Entre em contato conosco</p>
 
+            <div class="row">
+              <div class="col-sm-6 mb-4">
+                <input type="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="col-sm-6 mb-4">
+                <input type="text" class="form-control" placeholder="Nome">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 mb-4">
+                <input type="tel" class="form-control" placeholder="DDD + Número">
+              </div>
+              <div class="col-sm-6 mb-4">
+                <input type="date" class="form-control">
+              </div>
+            </div>
+
+            <div class="form-floating col-sm-12 mb-4">
+              <textarea class="form-control" placeholder="Digite uma mensagem" id="textArea" style="height: 100px; resize: none;"></textarea>
+              <label for="textArea">Digite uma mensagem</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg w-25">Enviar</button>
+          </div>
         </div>
     </main>
     <!-- Bootstrap -->
