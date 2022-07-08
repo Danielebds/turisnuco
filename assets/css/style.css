@@ -12,28 +12,29 @@ main {
     min-height: calc(100vh - (24px + 70px));
 }
 
-body#home{
-    background-image: url("../img/fernando-de-noronha.jpg");
+body {
     background-size: cover;
     background-attachment: fixed;
+}
+
+body#home{
+    background-image: url("../img/fernando-de-noronha.jpg");
 }
 
 body#refeicao{
     background-image: url("../img/cakes.jpg");
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 body#turismo{
     background-image: url("../img/museu2.jpg");
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 body#contato{
     background-image: url("../img/ground-zero.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+}
+
+body#login{
+    background-image: url("../img/noronha-morro-pico.jpg");
 }
 
 header {
