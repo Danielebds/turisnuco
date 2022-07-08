@@ -4,14 +4,36 @@
     box-sizing: border-box;
 }
 
-.cor-card {
+.preto-com-opacidade {
     background-color: rgba(109, 109, 109, 0.5);
+}
+
+main {
+    min-height: calc(100vh - (24px + 70px));
 }
 
 body#home{
     background-image: url("../img/fernando-de-noronha.jpg");
     background-size: cover;
     background-attachment: fixed;
+}
+
+body#refeicao{
+    background-image: url("../img/cakes.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body#turismo{
+    background-image: url("../img/museu2.jpg");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position-y: -400px;
+}
+
+body#turismo{
+    background-color: #FFF;
 }
 
 header {
