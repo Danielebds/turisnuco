@@ -27,15 +27,18 @@ body#refeicao{
 body#turismo{
     background-image: url("../img/museu2.jpg");
     background-size: cover;
-    /* background-attachment: fixed; */
-    background-repeat: no-repeat;
-    background-position-y: -400px;
+    background-attachment: fixed;
 }
 
-body#turismo{
+/* body#turismo{
     background-color: #FFF;
-}
+} */
 
 header {
     background-color: rgba(109, 109, 109, 0.5);
+}
+
+#cards .card img {
+    height: 180px;
+    object-fit: cover;
 }
