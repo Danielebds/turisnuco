@@ -37,6 +37,10 @@ body#login{
     background-image: url("../img/noronha-morro-pico.jpg");
 }
 
+body#hospedagem{
+    background-image: url("../img/hotel-buzios.jpg");
+}
+
 header {
     background-color: rgba(109, 109, 109, 0.5);
 }
